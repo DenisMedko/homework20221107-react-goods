@@ -2,13 +2,13 @@ import React from 'react';
 
 class GoodClass extends React.Component {
     render() {
-        const props = this.props;
+        const {name, description, price, qty} = this.props;
         return (
             <section>
-            <h3>Title : {props.name}</h3>
-            <p>About : {props.description}</p>
-            <div>Price : {props.price}</div>
-            <div>Qty : {props.qty}</div>
+                <h3>Title : {name}</h3>
+                <p>About : {description}</p>
+                <div>Price : {price}</div>
+                <div>Qty : {qty}</div>
             </section>    
         );
     }    
