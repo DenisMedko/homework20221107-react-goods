@@ -1,7 +1,7 @@
 const Good = (props) => {
     return (
         <section>
-            <h2>Title : {props.name}</h2>
+            <h3>Title : {props.name}</h3>
             <p>About : {props.description}</p>
             <div>Price : {props.price}</div>
             <div>Qty : {props.qty}</div>

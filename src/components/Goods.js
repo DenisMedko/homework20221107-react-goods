@@ -11,6 +11,7 @@ const Goods = () => {
     />);
     return (
         <article>
+            <h2>Functional components</h2>
             {goodsElements}
         </article>
     );
